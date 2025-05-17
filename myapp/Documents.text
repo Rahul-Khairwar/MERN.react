@@ -1,0 +1,911 @@
+/*const name="raj"
+const age=23
+const salary= 3400
+
+
+const App=()=>{
+
+  return(
+    <p>welcome to react i am {name} my age si {age*2} my salary {salary*2.345.}</p>
+  )
+
+}
+
+export default App */
+
+//const { useState } = require("react")
+
+/*const { BrowserRouter } = require("react-router-dom")*/
+
+/*const subject = <ul>
+
+<li>pip</li>
+<li>pip</li>
+<li>pip</li>
+
+<li>pip</li>
+
+<li>pip</li>
+
+
+</ul>
+const App()=> {
+
+  return(
+    <h1>my subject : {subject}</h1>
+  )
+}
+export default App */
+
+/*const App = () => {
+  return (
+    <>
+      <h1> hello </h1>
+      <h1>hello</h1>
+    </>
+  );
+};
+export default App;*/
+
+/*const App =()=>{
+
+  return (
+    <>
+    enter name: <input type="text"  />
+<br /> <br />
+enter city : <input type="text" />
+    </>
+  )
+}
+export default App */
+
+/*import Cybrom from "./Cybrom.jsx"
+
+const App=()=>{
+
+  return(
+    <>
+    <h1>Welcome to cybrom</h1>
+    <Cybrom/>
+    </>
+  )
+}
+export default App */
+
+/*import Data from "./Data"
+import Footer from "./Footer"
+
+import Header from "./Header"
+
+
+const App=()=>{
+
+  return(
+    <>
+    <h1>Hii this is Rahul</h1>
+   <Data/>
+   <Footer/>
+   <Header/>
+    
+    </>
+  )
+}
+export default App */
+
+
+/*
+const App =()=>{
+
+const Student =[
+
+  {
+
+    "roll no ": 221,
+    "name": "Rahul",
+    "city":" Bhopal",
+    "fees": 2300
+  },
+  {
+
+    "roll no ": 222,
+    "name": "Rahul1",
+    "city":" Bhopal1",
+    "fees": 23000
+  },
+  {
+
+    "roll no ": 2212,
+    "name": "Rahul2",
+    "city":" Bhopal2",
+    "fees": 23000
+  },
+  {
+
+    "roll no ": 2212,
+    "name": "Rahul3",
+    "city":" Bhopal3",
+    "fees": 23000
+  },
+  {
+
+    "roll no ": 2212,
+    "name": "Rahul4",
+    "city":" Bhopal4",
+    "fees": 2300
+  },
+
+]
+
+const ans=Student.map((key)=>{
+
+
+  return(
+    <>
+    <table>
+    <tr>
+      <td>{key.rollno}</td>
+      <td>{key.name}</td>
+      <td>{key.city}</td>
+      <td>{key.fees}</td>
+    </tr>
+    </table>
+    </>
+  )
+})
+
+  return(
+
+    <>
+    <h1 align="center" >Welcome to cybrom</h1>
+    <hr/>
+     <table border="1" width="400">
+<tr>
+  <td>roll no </td>
+  <td> Name</td>
+  <td>city</td>
+  <td></t
+</tr>
+</table>
+    </>
+  )
+
+
+
+}
+export default App ;
+*/
+
+/*import { BrowserRouter,Routes,Route } from "react-router-dom";
+
+import Layout from "./Layout"
+import Home from "./pages/Home"
+import Layout from "./pages/About"
+import Layout from "./pages/Contact"
+
+const App=()>={
+
+return(
+  <>
+  
+  <BrowserRouter>
+  
+  
+  
+  
+  
+  
+  </BrowserRouter>
+  
+  
+  
+  
+  
+  </>
+)
+
+
+
+}
+*/
+
+/*const App=()=>{
+
+  return(
+    <>
+     <h1 style={{color:"red", fontFamily:"arial" , textDecoration:"underline"}} > welcome to cybrom </h1>
+    </>
+  )
+}
+export default App; */
+/*
+const App =()=>{
+
+  return(
+    <>
+    <div style={{ border:"2px solid black", width:"200px", height:"100px" , borderRadius:"12px", backgroundColor:"blue" }}>
+    <div style={{ border:"2px solid black", width:"180px", height:"70px" ,marginTop:" 12px", borderRadius:"12px",marginLeft:"9px", 
+      backgroundColor:"yellow"
+       }}>
+    <div style={{ border:"2px solid black", width:'140px', height:"40px", borderRadius:'12px',marginTop:"12px" ,marginLeft:"16px" ,textAlign:"center",
+          backgroundColor:"darkorange",alignContent:"center",fontSize:"20px",fontWeight:'bold'
+    }} >
+         CYBROM
+      </div>
+      </div>
+      </div>
+    </>
+  )
+}
+export default App
+*/
+
+/*
+import Bhopal from "./Bhopal"
+import Delhi from "./Delhi"
+
+
+const App=()=>{
+
+return(
+
+  <>
+  <h1 style={{color:"blue", fontSize:"60px", backgroundColor:"red"}}>Welcome to app.jsx111 </h1>
+  <Bhopal/>
+  <Delhi/>
+  </>
+) 
+
+}
+export default App */
+
+/*
+import img1 from "./Images/img1.jpg"
+import img2 from "./Images/img2.jpg"
+import img3 from "./Images/imag3.jpg"
+const App=()=>{
+
+
+return(
+
+  <>
+  <h1>hii this is home</h1>
+  <img src={img1} width="300px" height="200px" /> <br /><br />
+  <img src={img2} width="300px" height="200px"  /> <br /><br />
+  <img src={img3} width="300px" height="300px" />
+  </>
+) 
+
+}
+export default App 
+
+*/
+
+// const App=()=>{
+// const display =()=>{
+
+//   alert("hello it is ")
+
+// }
+//   return(
+//     <>
+//     <h1>This is our Home </h1>
+//     <button onClick={display}>submit</button> 
+//     </>
+//   )
+// }
+// export default App
+
+
+// const App =()=>{
+//   const Myname=(nm)=>{
+
+//     alert(`my name is $(nm)`)
+//   }
+
+// return(
+//   <>
+//   <h1>hello </h1>
+//   <button onClick={()=>{Myname("Rahul")}}>click</button>
+//   </>
+// )
+
+
+
+// }
+// export default App
+
+
+// const App=()=>{
+//   const Display =(e)=>{
+
+//     console.log(e)
+//     alert ("Type:"+e.type+ "Name"+e.)
+//   }
+// return(
+//   <>
+//   <h1>hii this rahul </h1>
+//   </>
+// )
+
+// }
+// export default App
+
+// const App=()=>{
+//   const display =(nm,e)=>{
+
+//     alert("Name:"+ nm+"btName:"+e.target.name+"Value:" +e.target.value)
+//   }
+  
+//   return(
+//   <>
+//   <h1>Hii this is rahul</h1>
+//   <button name="myBTN" value="btn0" onClick={(e)=>{display("Rahul",e)}}>click</button>
+//   </>
+//   )
+
+//   }
+//   export default App
+
+// import { useState } from "react"
+// const App=()=>{
+  
+//   const [name,setName]=useState("Rahul")
+//   return(
+//   <>
+//   <h1>Hii this is :{name}</h1>
+//   <button onClick={()=>{setName("viplove")}}>click here</button>
+//   </>)
+
+//   }
+//   export default App
+
+// import { useState } from "react"
+// const App =()=>{
+//   const [color,setColor]=useState("red")
+
+//   return(
+//     <>
+//     <h1 style={{color:color}}>This is my favorite color :{color}</h1> 
+//     <button onClick={()=>{setColor("yellow")}}>yello</button>
+//     <button onClick={()=>{setColor("green ")}}>green</button>
+//     <button onClick={()=>{setColor("black")}}>black</button>
+//     </>
+//   )
+// }
+// export default App
+  
+/*
+//
+
+import { useState,useEffect } from "react"
+const  App=()=>{
+
+const [count,setCount]=useState(0)
+useEffect(()=>{
+
+setTimeout(() => {
+  setCount(count+1)
+  
+}, 1000);
+
+})
+  return (
+    <>
+    <h1>Hook example {count}</h1>
+    </>
+  )
+}
+
+export default App
+*/
+// import { useState,useEffect } from "react"
+// const App=()=>{
+
+//   const [count,setCount]=useState(0)
+//   useEffect(()=>{
+
+//     setTimeout(() => {
+      
+//       setCount(count+1)
+//     });
+
+//   },[])
+
+// return(
+//   <>
+//   <h1>HII this is hook: {count}</h1>
+//   </>
+// )
+// }
+
+// export default App
+
+// import { useState,useEffect } from "react"
+// const App=()=>{
+
+//   const [count,setCount]=useState(0)
+//   const [multi,setMulti]=useState(0)
+
+//   useEffect(()=>{
+//     setMulti(count*2)
+
+
+//   },[count])
+
+// return(
+//   <>
+//   <h1>HII this is hook: {count}</h1>
+//   <h2>Multiplication :{multi}</h2>
+//   <button onClick={()=>{setCount (count+1)}}>click here</button>
+//   </>
+// )
+// }
+// export default App
+
+// import { useState } from "react"
+// import axios from "axios"
+// const App=()=>{
+// const [input,setInput]=useState({})
+
+// const handleInput=(e)=>{
+
+//   let name=e.target.name
+//    let value =e.target.value
+
+//    setInput (values=>({...values,[name]:value}))
+//    console.log(input)
+// }
+
+// const handleSubmit=async()=>{
+// let api="http://localhost:3000/student"
+
+
+// const response=await axios.post(api,input)
+
+// console.log(response)
+// alert("Data succcesfully save!!!")
+
+// }
+
+// return(
+//   <>
+  
+//   <h1>Application form</h1>
+//   Enter rollno: <input type="text" name ="rollno" onChange={handleInput} />
+//   <br /><br />
+//     Enter name: <input type="text" name ="name" onChange={handleInput} />
+//     <br /><br />
+//       Enter city: <input type="text" name ="city" onChange={handleInput} />
+// <br /><br />
+//   Enter fees: <input type="text" name ="fees" onChange={handleInput} />
+//   <br /><br />
+//   <button onClick={handleSubmit}>save</button>
+//   </>
+// )
+
+// }
+// export default App
+
+
+// import { BrowserRouter,Routes,Route } from "react-router-dom";
+// import Layout1 from "./Layout1"
+// import Home1 from "./pages1/Home1"
+// import Insert from "./pages1/Insert";
+// import Display from "./pages1/Display";
+// const App=()=>{
+
+// return(
+//   <>
+//    <BrowserRouter>
+//    <Routes>
+//         <Route path="/" element={<Layout1/>}>
+        
+//         <Route index element={<Home1/>}/>
+//        <Route path="home" element={<Home1/>}/>
+//        <Route path="insert" element={<Insert/>}/>
+//       <Route path="display" element={<Display/>}/>
+//       </Route>
+//    </Routes>
+//    </BrowserRouter>
+
+//   </>
+// )
+
+// }
+// export default App;
+
+// import { useRef } from "react"
+// const App=()=>{
+// const myRef=useRef("")
+// const myFun = ()=>{
+
+//   myRef.current.innerHTML="WE LEARN React js"
+
+// }
+//   return(
+//     <>
+//     <H1 ref={myRef}>Hii Rahul this side</H1>
+//     <button onClick={myFun}>click here!!</button>
+//     </>
+//   )
+// }
+// export default App
+
+// import { useRef } from "react";
+
+// const App=()=>{
+
+//   const myRef=useRef("")
+//   const myFun=()=>{
+
+//     myRef.current.innerHTML="WE LEARN FROM REACT";
+//   }
+// return(
+// <>
+
+
+// <h1 ref={myRef}>Hello friends</h1>
+// <button onClick={myFun}>CLICK</button>
+// </>
+
+
+// )
+
+
+
+// }
+// export default App
+
+// import { useState,useRef,useEffect } from "react";
+
+// const App=()=>{
+//   const [name,setname]=useState("")
+//   const cntRef=useRef(0)
+//   console.log(cntRef)
+//   useEffect(()=>{
+
+// cntRef.current.cntRef.current+1;
+//   })
+
+// return(
+//   <>
+// Enter your name: <input type="text" value={name}
+
+//   </>
+// )
+
+// }
+
+import { useReducer } from "react";
+const App=()=>{
+return(
+  <>
+  
+  </>
+)
+
+
+
+}
+export default App
+
+// import { useState,useMemo } from "react"
+// const App=()=>{
+//   const [add,setAdd]=useState(0);
+//   const [sub,setSub]=useState(100);
+  
+//   const mymulti=useMemo(()=>{
+
+// console.log("*******")
+// return add*2;
+
+//   },[add]);
+
+// return(
+//   <>
+
+//   <h1>addition:{add}</h1>
+//   <button onClick={()=>{setAdd(add+1)}}>addtion</button>
+//   <h1>substraction:{sub}</h1>
+//   <button onClick={()=>{setSub(sub-1)}}>substraction
+
+
+//   </button>
+//   <hr/>
+//   <h2>multiplication:{mymulti}</h2>
+  
+//   </>
+// )
+
+// }
+// export default App
+
+import { useState,useMemo } from "react";
+
+const App=()=>{
+
+const [age,setAge]=useState(0)
+const [name,setName]=useState()
+const myAgevalue=useMemo(myAgeMulti,[age])
+
+function myAgeMulti(){
+for (var i=0,i<=10000000;i++){}
+
+return age*2;
+}
+return (
+
+  <>
+  <h1>Welcome </h1>
+ select age:<input type="number" value={age} onChange={(e)=>{setAge(e.target.value)}}/>?
+  
+  </>
+)
+
+
+}
+export default App
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

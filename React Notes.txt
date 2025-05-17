@@ -1,0 +1,20 @@
+Installation of react.js
+
+Node version= node -v
+npm version= npm -v
+
+for installing react globally == npm install -g create-react-app
+To version check == create-react-app --version 
+
+creating react app (new mathod (latest))---
+
+npm create vite@latest folder name like (myapp)
+
+y to okay
+
+select react and then javascript 
+
+then type 
+cd folder name like(myapp)
+npm install 
+npm run dev

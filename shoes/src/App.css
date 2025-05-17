@@ -1,0 +1,40 @@
+#footer{
+  background-color: lightblue;
+  padding: 90px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+#icons{
+
+  color: white;
+  font-size: 30px;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+}
+
+#navbar{
+  position: fixed;
+  width: 100%;
+}
+
+#cl{
+  padding-top: 80px;
+  z-index: 200px;
+}
+
+#carts{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 40px;
+  gap: 40px;
+}
+
+#carts:hover{
+  zoom:90%;
+}
